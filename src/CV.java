@@ -23,4 +23,25 @@ public class CV {
 		competences = pCompetences;
 		attentes = pAttentes;
 	}
+	
+	public void affiche(){
+		
+		System.out.println("Nom : " + nom +
+						   "\nPrenom : " +  prenom +
+						   "\nFormation : " + formation +
+						   "\nAnnées : " + experiences);
+		int compteur = 1;
+		for(String compet : competences){
+			
+			System.out.println(compteur + ". " + compet);
+			compteur++;
+		}
+		
+		System.out.println("Attentes : " + attentes);
+		
+		
+						   
+	}
+	
+	
 }
