@@ -43,5 +43,14 @@ public class CV {
 						   
 	}
 	
+public static void main(String[] args){
+		
 	
+		CV cvMax = new CV("Ouellette", "Maxime", "Informatique de Gestion" , 1 , new String[]{"Réseau" , "Programmation"} , "Suivre un cours intéressant et utile pour la vie professionnelle.");
+		CV cvMichaud = new CV("Michaud", "Antoine", "Informatique de Gestion" , 1 , new String []{"Java", "HTML", "Réseau" , "PowerPoint", "Programmation"}, "Un cours qui nous prépareras adéquatement à la vie professionnel");
+	
+		System.out.println("Bienvenue chez Barette!");
+		
+		cvMax.affiche();
+	}
 }
